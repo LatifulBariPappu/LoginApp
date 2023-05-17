@@ -24,6 +24,7 @@
         android:layout_below="@id/signin"
         android:background="#30ffffff"
         android:hint="Username"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:layout_margin="10dp"
         android:padding="20dp"
@@ -68,7 +69,7 @@
         android:id="@+id/others"
         android:text="or sign in with"
         android:layout_below="@id/forgotpass"
-        android:layout_margin="70dp"
+        android:layout_margin="50dp"
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"/>
 
@@ -76,6 +77,7 @@
     <ImageView
         android:layout_width="103dp"
         android:layout_height="106dp"
+        android:id="@+id/googlebtn"
         android:layout_below="@id/others"
         android:layout_centerHorizontal="true"
         android:src="@drawable/google" />
